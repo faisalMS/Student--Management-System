@@ -1,18 +1,25 @@
-## Getting Started
+## نظام إدارة الطلاب
+=============
+# الوصف :
+في هذا المشروع، ستقوم ببناء نظام بسيط يسمح لك بإدارة قائمة الطلاب ودرجاتهم الأكاديمية.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# أبدأ بتعريف مصفوفتين:
+* مصفوفة لأسماء الطلاب .
+* مصفوفة لدرجاتهم .
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+# قم بانشاء دوال تساعدك في إدارة هذه المصفوفات:
+* دالة لإضافة طالب جديد ودرجته .
+* دالة لعرض الطلاب المُضافين .
+* دالة لحساب متوسط درجات الطلاب .
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+  
+# استخدم حلقات التكرار في أجزاء مختلفة من النظام :
+* لعرض جميع الطلاب ودرجاتهم .
+* حساب المتوسط .
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+  
+# لضمان عمل النظام بسلاسة ودون مشكلات قم باستخدام مفهوم الاستثناءات للتعامل مع الحالات الخاصة :
+* تجنب القسمة على صفر عند حساب متوسط الدرجات.
+# استخدم Try-catch للتعامل مع هذه الاستثناءات وعرض رسائل خطأ مناسبة عند الحاجة .
+عند الانتهاء من بناء النظام، اختبر كافة الوظائف التي قمت بتطويرها للتأكد من أن كل شيء يعمل كما هو مُتوقع
